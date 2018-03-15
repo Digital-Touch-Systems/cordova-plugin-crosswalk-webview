@@ -31,7 +31,7 @@
             <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect --disable-web-security"/>
             <preference name="xwalkMode" value="embedded" />
             <preference name="xwalkMultipleApk" value="true" />
-            <preference name="android-minSdkVersion" value="16" />
+            <preference name="android-minSdkVersion" value="19" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/*">
