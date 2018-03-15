@@ -25,12 +25,12 @@
         <preference name="XWALK_MODE" default="embedded" />
         <preference name="XWALK_MULTIPLEAPK" default="true" />
         <config-file target="res/xml/config.xml" parent="/*">
+            <preference name="CrosswalkAnimatable" value="true"/>
             <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/>
-            <preference name="xwalkVersion" value="$XWALK_VERSION"/>
-            <preference name="xwalkLiteVersion" value="$XWALK_LITEVERSION"/>
-            <preference name="xwalkCommandLine" value="$XWALK_COMMANDLINE"/>
-            <preference name="xwalkMode" value="$XWALK_MODE" />
-            <preference name="xwalkMultipleApk" value="$XWALK_MULTIPLEAPK" />
+            <preference name="xwalkVersion" value="xwalk_core_library_canary:8.88.888.0"/>
+            <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect --disable-web-security"/>
+            <preference name="xwalkMode" value="embedded" />
+            <preference name="xwalkMultipleApk" value="true" />
             <preference name="android-minSdkVersion" value="16" />
         </config-file>
 
